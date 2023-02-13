@@ -1,0 +1,83 @@
+/**************** Homeapge Screen ********************
+-----------------------------------------------------*/
+.home_screen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .home_bg{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+
+    .logo{
+        margin-top: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .startup-content{
+        background: linear-gradient(180deg, rgba(22, 26, 30, 0.14) 11.09%, #161A1E 62.79%);
+        backdrop-filter: blur(2px); 
+        border-radius: 29.3812px;
+        width: 90%;
+        margin: 0 auto 48px;
+        padding: 24px 30px;
+
+        .welcome-title{
+            font-weight: 600;
+            font-size: 30.329px;
+            text-align: center;
+            letter-spacing: -0.156384px;
+            color: #FFFFFF;
+            line-height: 36px;
+
+            span{
+                display: block;
+                font-weight: 300;
+                font-size: 14.2167px;
+                line-height: initial;
+
+                &.top-sub{
+                    margin-bottom: 6px;
+                }
+                &.bottom-sub{
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .primary-button{
+            background-color: $primary-color;
+            border: 0;
+            text-align: center;
+            color: #fff;
+            display: block;
+            max-width: 262px;
+            width: 100%;
+            height: 50px;
+            font-weight: 600;
+            font-size: 14.22px;
+            border-radius: 21.3251px;
+            margin: 24px auto 0;
+            cursor: pointer;
+            outline: none;
+            appearance: none;
+        }
+    }
+}

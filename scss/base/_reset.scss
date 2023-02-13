@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+}
+
+.app-main-wrapper{
+    max-width: 428px;
+    max-height: 926px;
+    height: 100vh;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+}
